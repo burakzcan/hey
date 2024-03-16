@@ -1,12 +1,14 @@
-import { extendTheme } from "@chakra-ui/react"
+import { extendTheme } from '@chakra-ui/react'
 
-const theme = extendTheme({
-    initialColorMode: "system",
-    useSystemColorMode: false,
-    colors: {
-        light: {},
-        dark: {}
-    }
+const heyTheme = extendTheme({
+	initialColorMode: 'system',
+	useSystemColorMode: false,
+	colors: {
+		brandDark: '#333',
+		brandLight: '#ddd'
+	}
 })
 
-export default theme
+
+
+export default heyTheme
